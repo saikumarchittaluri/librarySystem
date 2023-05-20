@@ -1,0 +1,66 @@
+body{
+    background-color:darkgrey;
+    font-family: 'Poppins', sans-serif;
+}
+ #Navbars{
+    position: sticky;
+    top: 0px;
+ }
+.bar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.right ul li {
+    padding: 20px;
+    list-style: none;
+    display: inline-block;
+}
+.right a{
+    color: white;
+    text-decoration: none;
+}
+.left h2{
+    padding-left: 30px;
+}
+.Books{
+    background-color: white;
+    padding: 20px;
+    margin: 20PX;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+.Books table{
+    width: 100%;  
+     
+}
+.Books td{
+    text-align: center;
+    
+}
+.registation{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+.regform  input{
+    width:100%;
+}
+.registation .btn{
+    background-color: black;
+    color: azure;
+}
+.btn:hover{
+    background-color: yellow;
+    color: black;
+    transition: .2s;
+    font-size: large;
+    font-style: bold;
+}
+.marque{
+    background-color: yellow;
+    color: #000;
+}
